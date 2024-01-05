@@ -1,12 +1,13 @@
 #!/bin/bash
 
+export LANG=en_US.UTF-8
+export VISUAL=nvim
+export EDITOR=$VISUAL
+
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:~/Library/Python/3.9/lib/python/site-packages
 export PATH=$PATH:/usr/local/go/bin
-
-export VISUAL=nvim
-export EDITOR=$VISUAL
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
