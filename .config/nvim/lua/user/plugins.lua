@@ -44,8 +44,20 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" 
   use "jiangmiao/auto-pairs"
   use "nvim-lua/plenary.nvim"
+  use "gelguy/wilder.nvim"
+  use "lewis6991/gitsigns.nvim"
+  use "p00f/nvim-ts-rainbow"
+  use "fladson/vim-kitty"
+  use "camnw/lf-vim"
+  use "nvim-tree/nvim-web-devicons"
+  use "nvim-tree/nvim-tree.lua"
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
+  use "mhartington/oceanic-next"
+  use "folke/tokyonight.nvim"
+  use "nvim-lualine/lualine.nvim"
+  use "xiyaowong/transparent.nvim"
 
-  -- Dashboard --
   use {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",
@@ -58,45 +70,17 @@ return packer.startup(function(use)
         require'alpha'.setup(require'alpha.themes.dashboard'.config)
     end
   }
-
-  -- Obsidian --
-  use "epwalsh/obsidian.nvim"
-
-  -- Wilder --
-  use "gelguy/wilder.nvim"
   
-  -- Telescope --
   use {
     'nvim-telescope/telescope.nvim', 
     tag = '0.1.5',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  -- Git --
-  use "lewis6991/gitsigns.nvim"
-  
-  -- Treesitter --
   use {
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  use "p00f/nvim-ts-rainbow"
-  use "fladson/vim-kitty"
-  use "camnw/lf-vim"
-
-  -- NVimTree --
-  use "nvim-tree/nvim-web-devicons"
-  use "nvim-tree/nvim-tree.lua"
-
-  -- Bufferline --
-  use "akinsho/bufferline.nvim"
-  use "moll/vim-bbye"
-  
-  -- Color Schemes --
-  use "mhartington/oceanic-next"
-  use "folke/tokyonight.nvim"
-  use "nvim-lualine/lualine.nvim"
-  use "xiyaowong/transparent.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
