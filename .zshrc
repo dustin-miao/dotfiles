@@ -58,6 +58,15 @@ function spotify() {
   ncspot $@
 }
 
+### oh-my-posh
+
+if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+  eval "$(oh-my-posh init zsh)"
+fi
+
+# themes: https://ohmyposh.dev/docs/themes
+eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/emodipt-extend.omp.json)"
+
 ### it speaks!
 
 alias aoeu="echo I see you are a man of culture"
