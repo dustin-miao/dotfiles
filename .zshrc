@@ -61,11 +61,9 @@ function spotify() {
 ### oh-my-posh
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh)"
+  # themes: https://ohmyposh.dev/docs/themes
+  eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/emodipt-extend.omp.json)"
 fi
-
-# themes: https://ohmyposh.dev/docs/themes
-eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/emodipt-extend.omp.json)"
 
 ### it speaks!
 
