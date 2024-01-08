@@ -40,25 +40,26 @@ packer.init {
 
 -- Install your plugins here
 return packer.startup(function(use)
-  use "wbthomason/packer.nvim"
-  use "nvim-lua/popup.nvim" 
-  use "jiangmiao/auto-pairs"
-  use "nvim-lua/plenary.nvim"
-  use "gelguy/wilder.nvim"
-  use "lewis6991/gitsigns.nvim"
-  use "p00f/nvim-ts-rainbow"
-  use "fladson/vim-kitty"
-  use "camnw/lf-vim"
-  use "nvim-tree/nvim-web-devicons"
-  use "nvim-tree/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
+  use "akinsho/toggleterm.nvim"
+  use "camnw/lf-vim"
+  use "fladson/vim-kitty"
+  use "folke/tokyonight.nvim"
+  use "gelguy/wilder.nvim"
+  use "HiPhish/rainbow-delimiters.nvim"
+  use "jiangmiao/auto-pairs"
+  use "lewis6991/gitsigns.nvim"
+  use "lukas-reineke/indent-blankline.nvim"
   use "moll/vim-bbye"
   use "mhartington/oceanic-next"
-  use "folke/tokyonight.nvim"
+  use "nvim-lua/plenary.nvim"
+  use "nvim-lua/popup.nvim" 
   use "nvim-lualine/lualine.nvim"
+  use "nvim-tree/nvim-web-devicons"
+  use "nvim-tree/nvim-tree.lua"
   use "xiyaowong/transparent.nvim"
   use "tpope/vim-commentary"
-  use "akinsho/toggleterm.nvim"
+  use "wbthomason/packer.nvim"
 
   use {
     "nvimdev/dashboard-nvim",
@@ -71,7 +72,7 @@ return packer.startup(function(use)
     config = function ()
         require'alpha'.setup(require'alpha.themes.dashboard'.config)
     end
-  }
+  } 
   
   use {
     'nvim-telescope/telescope.nvim', 
