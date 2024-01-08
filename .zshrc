@@ -11,9 +11,12 @@ export PATH=$PATH:/usr/local/go/bin
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 
+### zsh extensions
+
 BREW_PREFIX=$(brew --prefix)
 source $BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+eval $(thefuck --alias)
 
 ### utility
 
