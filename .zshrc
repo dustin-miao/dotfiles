@@ -36,6 +36,7 @@ alias egrep="egrep --color"
 alias fgrep="fgrep --color"
 
 alias osfetch="neofetch"
+alias gam="gotop"
 
 ### scripts
 
