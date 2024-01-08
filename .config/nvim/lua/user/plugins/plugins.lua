@@ -57,6 +57,7 @@ return packer.startup(function(use)
   use "folke/tokyonight.nvim"
   use "nvim-lualine/lualine.nvim"
   use "xiyaowong/transparent.nvim"
+  use "tpope/vim-commentary"
 
   use {
     "nvimdev/dashboard-nvim",
