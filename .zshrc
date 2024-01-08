@@ -19,8 +19,8 @@ alias rmc="rm -i"
 alias cpc="cp -i"
 alias mvc="mv -i"
 
-alias ls="ls --color=always"
-alias ll="ls -l --color=always"
+alias ls="eza --icons"
+alias la="ls -la"
 
 alias less="less -R"
 alias diff="diff --color"
