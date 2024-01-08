@@ -1,5 +1,4 @@
 local opts = { noremap = true, silent = true }
-
 local term_opts = { silent = true }
 
 -- Shorten function name
@@ -12,6 +11,8 @@ vim.g.maplocalleader = " "
 
 -- Quality of Life
 keymap("n", "<leader><Space>", ":w<CR>", opts)
+keymap("n", "<leader>j", "8j", opts)
+keymap("n", "<leader>k", "8k", opts)
 
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
