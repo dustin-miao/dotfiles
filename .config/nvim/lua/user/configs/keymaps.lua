@@ -27,3 +27,5 @@ keymap("n", "H", ":BufferLineCyclePrev<CR>", opts)
 keymap("n", "L", ":BufferLineCycleNext<CR>", opts)
 keymap("n", "<leader>d", ":BufferLinePick<CR>", opts)
 
+-- NvimTree Keymaps
+keymap("n", "<leader>t", ":NvimTreeToggle<CR>", opts)
