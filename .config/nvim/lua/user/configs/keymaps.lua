@@ -29,3 +29,6 @@ keymap("n", "<leader>d", ":BufferLinePick<CR>", opts)
 
 -- NvimTree Keymaps
 keymap("n", "<leader>t", ":NvimTreeToggle<CR>", opts)
+
+-- ToggleTerm Keymaps
+keymap("n", "<leader>g", ":lua _LAZYGIT_TOGGLE()<cr>", opts)
