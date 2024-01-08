@@ -9,6 +9,8 @@ export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:~/Library/Python/3.9/lib/python/site-packages
 export PATH=$PATH:/usr/local/go/bin
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ### utility
