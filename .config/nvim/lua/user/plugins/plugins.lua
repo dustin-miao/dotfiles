@@ -58,6 +58,7 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "xiyaowong/transparent.nvim"
   use "tpope/vim-commentary"
+  use "akinsho/toggleterm.nvim"
 
   use {
     "nvimdev/dashboard-nvim",
