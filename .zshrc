@@ -52,12 +52,6 @@ alias icat="kitten icat"
 # https://sw.kovidgoyal.net/kitty/kittens/diff/
 alias kdiff="kitten diff"
 
-# https://github.com/hrkfdn/ncspot
-function spotify() {
-  kitten @ set-tab-title "Music 🎶"
-  ncspot $@
-}
-
 ### oh-my-posh
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
