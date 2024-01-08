@@ -52,6 +52,11 @@ alias icat="kitten icat"
 # https://sw.kovidgoyal.net/kitty/kittens/diff/
 alias kdiff="kitten diff"
 
+### lazy-git
+
+# https://github.com/jesseduffield/lazygit/discussions/1201#discussioncomment-641939
+alias ly="lazygit -ucd ~/.local/share/yadm/lazygit -w ~ -g ~/.local/share/yadm/repo.git"
+
 ### oh-my-posh
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
