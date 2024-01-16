@@ -9,7 +9,8 @@ export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:~/Library/Python/3.9/lib/python/site-packages
 export PATH=$PATH:/usr/local/go/bin
 
-export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home"
+export PATH=$PATH:$JAVA_HOME
 
 ### zsh extensions
 
