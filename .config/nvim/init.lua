@@ -14,4 +14,6 @@ require "user/plugins/transparent"
 require "user/plugins/treesitter"
 require "user/plugins/wilder"
 
+require "user.lsp"
+
 require("nvim-tree").setup()

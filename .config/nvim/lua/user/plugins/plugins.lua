@@ -42,16 +42,19 @@ packer.init {
 return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "akinsho/toggleterm.nvim"
+  use 'andweeb/presence.nvim'
   use "camnw/lf-vim"
   use "fladson/vim-kitty"
   use "folke/tokyonight.nvim"
   use "gelguy/wilder.nvim"
   use "HiPhish/rainbow-delimiters.nvim"
   use "jiangmiao/auto-pairs"
+  use "jose-elias-alvarez/null-ls.nvim"
   use "lewis6991/gitsigns.nvim"
   use "lukas-reineke/indent-blankline.nvim"
   use "moll/vim-bbye"
   use "mhartington/oceanic-next"
+  use "neovim/nvim-lspconfig"
   use "nvim-lua/plenary.nvim"
   use "nvim-lua/popup.nvim" 
   use "nvim-lualine/lualine.nvim"
@@ -60,6 +63,8 @@ return packer.startup(function(use)
   use "xiyaowong/transparent.nvim"
   use "tpope/vim-commentary"
   use "wbthomason/packer.nvim"
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim" 
 
   use {
     "nvimdev/dashboard-nvim",
