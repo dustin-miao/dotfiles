@@ -3,6 +3,7 @@ require "user/configs/keymaps"
 require "user/configs/options"
 
 require "user/plugins/bufferline"
+require "user/plugins/cmp"
 require "user/plugins/gitsigns"
 require "user/plugins/indent-blankline"
 require "user/plugins/lualine"
