@@ -4,7 +4,7 @@ if not status_ok then
   return
 end
 
-transparent.setup{
+transparent.setup({
   -- table: default groups
   groups = {
     "Normal",
@@ -40,6 +40,6 @@ transparent.setup{
   },
   -- table: groups you don't want to clear
   exclude_groups = {},
-}
+})
 
-transparent.clear_prefix('BufferLine')
+transparent.clear_prefix("BufferLine")

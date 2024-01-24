@@ -4,18 +4,14 @@ if not status_ok then
   return
 end
 
-dashboard.setup{
+dashboard.setup({
   theme = "hyper",
   disable_move = false,
-  config = {
-
-  },
+  config = {},
   hide = {
     statusline = true,
     tabline = false,
     winbar = false,
   },
-  preview = {
-
-  },
-}
+  preview = {},
+})

@@ -4,22 +4,22 @@ if not status_ok then
   return
 end
 
-rainbow_delimiters.setup{
+rainbow_delimiters.setup({
   query = {
-    [''] = 'rainbow-delimiters',
-    lua = 'rainbow-blocks',
+    [""] = "rainbow-delimiters",
+    lua = "rainbow-blocks",
   },
   priority = {
-    [''] = 110,
+    [""] = 110,
     lua = 210,
   },
   highlight = {
-    'RainbowDelimiterRed',
-    'RainbowDelimiterYellow',
-    'RainbowDelimiterBlue',
-    'RainbowDelimiterOrange',
-    'RainbowDelimiterGreen',
-    'RainbowDelimiterViolet',
-    'RainbowDelimiterCyan',
+    "RainbowDelimiterRed",
+    "RainbowDelimiterYellow",
+    "RainbowDelimiterBlue",
+    "RainbowDelimiterOrange",
+    "RainbowDelimiterGreen",
+    "RainbowDelimiterViolet",
+    "RainbowDelimiterCyan",
   },
-}
+})

@@ -3,7 +3,7 @@ if not status_ok then
   vim.notify("[Error] plugin nvim-treesitter.configs not found")
 end
 
-configs.setup{
+configs.setup({
   ensure_installed = "all",
   sync_install = false,
   ignore_install = { "" },
@@ -16,7 +16,7 @@ configs.setup{
     enable = true,
     disable = { "yaml" },
   },
-}
+})
 
 rainbow = {
   enable = true,
