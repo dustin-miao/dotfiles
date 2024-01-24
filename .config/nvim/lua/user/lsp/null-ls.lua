@@ -16,11 +16,11 @@ null_ls.setup({
     formatting.black.with({ 
       extra_args = { "--fast" } 
     }),
-    formatting.stylua({
+    formatting.stylua.with({
       extra_args = { "--config-path", vim.fn.expand("~/.config/stylua.toml") }
     }),
     diagnostics.checkstyle.with({
-      extra_args = { "-c", "~/scripts/java_checkstyle.xml" }
+      extra_args = { "-c", vim.fn.expand("~/scripts/java_checkstyle.xml") }
     }),
   },
 })
