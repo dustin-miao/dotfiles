@@ -38,6 +38,7 @@ alias fgrep="fgrep --color"
 
 alias osfetch="neofetch"
 alias gam="gotop"
+alias styluad="stylua --config-path \"$HOME/.config/stylua.toml\""
 
 ### scripts
 
